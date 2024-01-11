@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/sliderView">
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20sp"
+                android:text="Option Title"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20sp"
+                android:text="Perform Motor Test"
+                android:textColor="@color/colorGray"
+                android:textSize="10sp"
+                android:layout_marginTop="2sp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/sliderView"
+            android:layout_width="220sp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvSlider"
+                android:layout_width="20sp"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="@color/colorWhite"
+                android:textSize="10sp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/sliderView"
+                android:gravity="center"/>
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="12sp"
+                android:minWidth="12sp"
+                android:maxHeight="12sp"
+                android:maxWidth="12sp"
+                android:progress="10"
+                android:max="100"
+                android:progressDrawable="@drawable/seekbar_track"
+                android:thumb="@drawable/seekbar_thumb"
+                android:splitTrack="false" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <Switch
+        android:id="@+id/switchToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:showText="false"
+        android:track="@drawable/switch_track"
+        android:thumb="@drawable/switch_thumb"
+        tools:ignore="UseSwitchCompatOrMaterialXml"
+        android:layout_marginLeft="20sp"
+        android:checked="false"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:background="@color/black"
+        android:layout_marginTop="12sp"/>
+</LinearLayout>

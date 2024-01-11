@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20sp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Option Title"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/btnCurveEdit"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_curve_editor" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/optionView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:paddingHorizontal="40sp"
+        android:paddingVertical="20sp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:id="@+id/curveView"
+            android:layout_width="270sp"
+            android:layout_height="270sp">
+            <LinearLayout
+                android:id="@+id/linY"
+                android:layout_width="12sp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="6sp">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linX"
+                android:layout_width="match_parent"
+                android:layout_height="12sp"
+                android:orientation="horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="6sp">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linGraph"
+                android:layout_width="240sp"
+                android:layout_height="240sp"
+                android:layout_marginStart="18sp"
+                android:layout_marginTop="12sp"
+                android:layout_marginEnd="12sp"
+                android:layout_marginBottom="18sp"
+                android:orientation="horizontal" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="270sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:orientation="vertical"
+            android:paddingHorizontal="8sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/btnAdd"
+                    android:layout_width="match_parent"
+                    android:layout_height="35sp"
+                    android:layout_weight="1"
+                    android:text="Add Points"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:background="@drawable/bg_selected_left"/>
+                <TextView
+                    android:id="@+id/btnAdjust"
+                    android:layout_width="match_parent"
+                    android:layout_height="35sp"
+                    android:layout_weight="1"
+                    android:text="Adjust Points"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:background="@drawable/bg_unselected_center"/>
+                <TextView
+                    android:id="@+id/btnDelete"
+                    android:layout_width="match_parent"
+                    android:layout_height="35sp"
+                    android:layout_weight="1"
+                    android:text="Delete Points"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:background="@drawable/bg_unselected_right"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="10sp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20sp">
+                    <TextView
+                        android:id="@+id/btnLinear"
+                        android:layout_width="60sp"
+                        android:layout_height="35sp"
+                        android:text="Linear"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:background="@drawable/bg_selected_left"/>
+                    <TextView
+                        android:id="@+id/btnCurves"
+                        android:layout_width="60sp"
+                        android:layout_height="35sp"
+                        android:text="Curves"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:background="@drawable/bg_unselected_right"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/btnClear"
+                    android:layout_width="50sp"
+                    android:layout_height="35sp"
+                    android:text="Clear"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:background="@drawable/bg_unselected"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="20sp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:background="@color/black"/>
+</LinearLayout>

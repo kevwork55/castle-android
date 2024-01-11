@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_height">162dp</dimen>
+    <dimen name="header_height">159dp</dimen>
+    <dimen name="footer_height">174dp</dimen>
+
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="margin_large">36dp</dimen>
+
+    <dimen name="text_size_9">9sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_40">40sp</dimen>
+
+    <!--OFFSET-->
+    <dimen name="offset_6">6dp</dimen>
+    <dimen name="offset_8">8dp</dimen>
+    <dimen name="offset_10">10dp</dimen>
+    <dimen name="offset_12">12dp</dimen>
+    <dimen name="offset_16">16dp</dimen>
+    <dimen name="offset_18">18dp</dimen>
+    <dimen name="negative_offset_18">-18dp</dimen>
+    <dimen name="offset_20">20dp</dimen>
+    <dimen name="offset_22">22dp</dimen>
+    <dimen name="offset_24">24dp</dimen>
+    <dimen name="offset_32">32dp</dimen>
+    <dimen name="offset_34">34dp</dimen>
+    <dimen name="offset_40">40dp</dimen>
+    <dimen name="offset_42">42dp</dimen>
+    <dimen name="offset_48">48dp</dimen>
+    <dimen name="offset_100">100dp</dimen>
+
+
+    <!--MAIN GRADIENT BACKGROUND-->
+    <dimen name="main_background_corner_radius">4dp</dimen>
+    <dimen name="main_background_stroke">1dp</dimen>
+    <dimen name="secondary_background_stroke">0.5dp</dimen>
+
+    <!--SWITCH-->
+    <dimen name="switch_thumb_size">34dp</dimen>
+    <dimen name="switch_thumb_stroke">6dp</dimen>
+    <dimen name="switch_track_height">40dp</dimen>
+    <dimen name="switch_track_corner_radius">20dp</dimen>
+
+    <!--SEEKBAR-->
+    <dimen name="seekbar_thumb_size">32dp</dimen>
+    <dimen name="seekbar_thumb_stroke">2.5dp</dimen>
+    <dimen name="seekbar_track_height">14dp</dimen>
+    <dimen name="seekbar_track_corner_radius">7dp</dimen>
+
+    <!--PROGRESS BAR-->
+    <dimen name="progress_bar_height">16dp</dimen>
+    <dimen name="progress_bar_corner_radius">8dp</dimen>
+
+    <!--CHECK BOX-->
+    <dimen name="checkbox_button_size">32dp</dimen>
+    <dimen name="checkbox_corner_radius">4dp</dimen>
+    <dimen name="checkbox_stroke_width">1dp</dimen>
+    <dimen name="checkbox_check_thumb_size">20dp</dimen>
+    <dimen name="checkbox_check_thumb_corner_radius">2dp</dimen>
+
+    <!--LOADING SPINNER-->
+    <dimen name="spinner_background_stroke_large">14dp</dimen>
+    <dimen name="spinner_background_stroke_small">5dp</dimen>
+    <dimen name="spinner_default_radius">60dp</dimen>
+
+</resources>

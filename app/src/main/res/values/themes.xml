@@ -1,0 +1,235 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CastleLink" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/main</item>
+        <item name="colorPrimaryVariant">@color/background_dark</item>
+        <item name="colorPrimaryDark">@color/background_dark</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/main_end_gradient</item>
+        <item name="colorSecondaryVariant">@color/main_end_gradient</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--SWITCHER-->
+    <style name="AppSwitcher" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:thumb">@drawable/switch_thumb</item>
+        <item name="track">@drawable/switch_track</item>
+        <item name="showText">false</item>
+    </style>
+
+    <!--SEEKBAR-->
+    <style name="AppSeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:thumb">@drawable/seekbar_thumb</item>
+        <item name="android:progressDrawable">@drawable/seekbar_track</item>
+        <item name="android:splitTrack">false</item>
+        <item name="android:maxHeight">@dimen/seekbar_track_height</item>
+    </style>
+
+    <!--CHECKBOX-->
+    <style name="AppCheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/button_checkbox</item>
+    </style>
+
+    <!--BUTTONS-->
+    <style name="AppMainButton" parent="TextAppearance.AppCompat.Widget.Button">
+        <item name="android:background">@drawable/button_main</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:fontFamily">@font/noto_sans_regular</item>
+        <item name="android:fontWeight" tools:targetApi="o">600</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:lineHeight" tools:targetApi="p">19dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="AppSecondaryButton" parent="AppMainButton">
+        <item name="android:background">@drawable/button_secondary</item>
+    </style>
+
+    <style name="AppAlertButton" parent="AppMainButton">
+        <item name="android:background">@drawable/button_alert</item>
+    </style>
+
+    <style name="AppSecondaryVariantButton" parent="AppMainButton">
+        <item name="android:background">@drawable/button_secondary_variant</item>
+    </style>
+
+    <style name="PasscodeButton" parent="AppMainButton">
+        <item name="android:background">@drawable/button_passcode</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">35dp</item>
+    </style>
+
+
+    <!--TEXT VIEW-->
+    <style name="MultiplySelectorTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAppearance">@style/Caption</item>
+    </style>
+
+    <style name="ProgressBarTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">@style/Caption</item>
+    </style>
+
+    <style name="SpinnerItem" parent="Widget.AppCompat.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/background_dark</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:lines">1</item>
+        <item name="android:textAppearance">@style/Body1</item>
+    </style>
+
+    <style name="EditTextView" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/transparent_50</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingStart">18sp</item>
+        <item name="android:paddingEnd">18sp</item>
+        <item name="android:paddingTop">16sp</item>
+        <item name="android:paddingBottom">16sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">19.04dp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:gravity">start</item>
+        <item name="android:fontStyle" tools:targetApi="o">normal</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@drawable/background_text_input</item>
+    </style>
+
+    <style name="SpinnerTextView" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textColor">@color/transparent_50</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingStart">18sp</item>
+        <item name="android:paddingEnd">18sp</item>
+        <item name="android:paddingTop">16sp</item>
+        <item name="android:paddingBottom">16sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">19.04dp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:gravity">start</item>
+        <item name="android:fontStyle" tools:targetApi="o">normal</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@drawable/background_text_input</item>
+        <item name="android:lines">1</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:inputType">none</item>
+        <item name="android:focusable">false</item>
+        <item name="android:popupBackground">@color/background_dark</item>
+        <item name="android:dropDownWidth">162dp</item>
+    </style>
+
+    <style name="TextInputLayout">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="errorIconDrawable">@null</item>
+        <item name="errorTextColor">@color/error_accent</item>
+        <item name="hintAnimationEnabled">false</item>
+        <item name="hintEnabled">false</item>
+        <item name="passwordToggleTint">@color/text_secondary</item>
+    </style>
+
+    <style name="TextInput" parent="ThemeOverlay.Material3.TextInputEditText">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:lineHeight" tools:targetApi="p">19.07dp</item>
+        <item name="android:fontFamily">@font/noto_sans_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="android:background">@drawable/background_text_input</item>
+        <item name="android:paddingTop">@dimen/offset_16</item>
+        <item name="android:paddingBottom">@dimen/offset_16</item>
+        <item name="android:textCursorDrawable">@drawable/text_cursor_drawable</item>
+    </style>
+
+    <style name="ErrorTitleTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:lineHeight" tools:targetApi="p">21.79dp</item>
+        <item name="android:fontFamily">@font/noto_sans_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/error_accent_variant</item>
+    </style>
+
+    <style name="ErrorBodyTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:lineHeight" tools:targetApi="p">21.79dp</item>
+        <item name="android:fontFamily">@font/noto_sans_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+
+    <!--FONTS-->
+    <style name="BUTTON" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:fontFamily">@font/noto_sans_regular</item>
+        <item name="android:fontWeight" tools:targetApi="o">600</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:lineHeight" tools:targetApi="p">19dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:fontFamily">@font/noto_sans_regular</item>
+        <item name="android:fontWeight" tools:targetApi="o">500</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:lineHeight" tools:targetApi="p">22.77dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:fontFamily">@font/noto_sans_regular</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:textSize">@dimen/text_size_10</item>
+        <item name="android:lineHeight" tools:targetApi="p">14.00dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="SubTitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:fontFamily">@font/noto_sans_regular</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:lineHeight" tools:targetApi="p">16.34dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="SubTitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:fontFamily">@font/noto_sans_regular</item>
+        <item name="android:fontWeight" tools:targetApi="o">700</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:lineHeight" tools:targetApi="p">19.07dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+</resources>

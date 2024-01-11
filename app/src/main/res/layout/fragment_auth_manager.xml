@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    android:fillViewport="true">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/logo_iv"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_margin="@dimen/offset_12"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_header_logo"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title_tv"
+            style="@style/Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/auth_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/logo_iv" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/offset_32"
+            android:layout_weight="1"
+            android:background="@drawable/gradient_background"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/offset_18">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.kitelytech.castlelink.core.presentation.ui.widget.MultipleSelectorView
+                    android:id="@+id/login_register_msv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/offset_18"
+                    android:layout_marginEnd="@dimen/offset_20"
+                    android:layout_weight="1"
+                    app:layout_constraintEnd_toStartOf="@id/quick_link_b"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/title_tv"
+                    app:msv_items="@array/auth_buttons" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/quick_link_b"
+                    style="@style/AppSecondaryButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/offset_18"
+                    android:drawableStart="@drawable/ic_quick_link"
+                    android:drawablePadding="@dimen/offset_10"
+                    android:paddingStart="@dimen/offset_20"
+                    android:paddingEnd="@dimen/offset_20"
+                    android:text="@string/auth_quick_link_button"
+                    app:layout_constraintBottom_toBottomOf="@id/login_register_msv"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/login_register_msv" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/auth_fcv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/login_register_msv" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

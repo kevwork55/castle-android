@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:background="@drawable/gradient_background"
+    tools:parentTag="androidx.appcompat.widget.LinearLayoutCompat">
+
+    <ImageView
+        android:id="@+id/footer_logo_iv"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_footer_logo" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/footer_text_tv"
+        style="@style/SubTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/login_footer_text_button"
+        android:textFontWeight="300"
+        android:lineHeight="24dp"
+        tools:targetApi="p" />
+</merge>

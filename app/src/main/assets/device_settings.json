@@ -1,0 +1,222 @@
+{
+  "DeviceName": "Mamba Max Pro",
+  "Sections": [{
+    "title": "Basic",
+    "hidden": false,
+    "settings": [{
+      "name": "Cutoff Voltage",
+      "type": "CutOffVoltage",
+      "min_value": null,
+      "max_value": null,
+      "value_type": "string",
+      "options": ["5.0 V", "6.0 V", "9.0 V", "12.0 V", "15.0 V", "18.0 V"],
+      "Measurement": "5.0 V"
+    },
+    {
+      "name": "Auto-Lipo Volts/Cell",
+      "type": "ComboBox",
+      "min_value": null,
+      "max_value": null,
+      "value_type": "string",
+      "options": ["3.0 Volts/Cell", "3.1 Volts/Cell", "3.2 Volts/Cell", "3.3 Volts/Cell", "3.4 Volts/Cell", "3.5 Volts/Cell"],
+      "Measurement": ""
+    },
+    {
+      "name": "Reverse Type",
+      "type": "ComboBox",
+      "min_value": null,
+      "max_value": null,
+      "value_type": "string",
+      "options": ["Without Reverse", "Crawler Reverse", "With Reverse"],
+      "Measurement": ""
+    },
+    {
+      "name": "Motor Direction",
+      "type": "ComboBox",
+      "min_value": null,
+      "max_value": null,
+      "value_type": "string",
+      "options": ["Normal", "Reverse"],
+      "Measurement": ""
+    },
+    {
+      "name": "Power-On Warning Beep",
+      "type": "ComboBox",
+      "min_value": null,
+      "max_value": null,
+      "value_type": "string",
+      "options": ["Beep Disabled", "Beep Enabled"],
+      "Measurement": ""
+    },
+    {
+      "name": "Brake Amount",
+      "type": "Slider",
+      "min_value": 0,
+      "max_value": 100,
+      "value_type": "int",
+      "options": [],
+      "Measurement": "%"
+    },
+    {
+      "name": "Drag Brake",
+      "type": "Slider",
+      "min_value": 0,
+      "max_value": 213,
+      "value_type": "int",
+      "options": [],
+      "Measurement": "V"
+    }]
+  },
+  {
+    "title": "Power",
+    "hidden": false,
+    "settings": [{
+      "name": "Max Forward Power",
+      "type": "Slider",
+      "min_value": 0,
+      "max_value": 100,
+      "value_type": "int",
+      "options": [],
+      "Measurement": "%"
+    },
+    {
+      "name": "Max Reverse Power",
+      "type": "Slider",
+      "min_value": 0,
+      "max_value": 100,
+      "value_type": "int",
+      "options": [],
+      "Measurement": "%"
+    },
+    {
+      "name": "Punch Control",
+      "type": "ComboBox",
+      "min_value": null,
+      "max_value": null,
+      "value_type": "string",
+      "options": ["100%", "90%", "80%", "70%", "60%", "50%", "40%", "30%", "20%", "10%", "0%, Disabled"],
+      "Measurement": ""
+    },
+    {
+      "name": "Torque Control",
+      "type": "Torque",
+      "min_value": 0,
+      "max_value": 100,
+      "value_type": "int",
+      "options": [],
+      "Measurement": ""
+    }]
+  },
+  {
+    "title": "Advanced",
+    "hidden": false,
+    "settings": [{
+      "name": "BEC Voltage",
+      "type": "Slider",
+      "min_value": 5.0,
+      "max_value": 7.0,
+      "value_type": "decimal",
+      "options": [],
+      "Measurement": "V"
+    },
+    {
+      "name": "Arming Time",
+      "type": "ComboBox",
+      "min_value": null,
+      "max_value": null,
+      "value_type": "string",
+      "options": ["1s", "1.5s", "2s", "2.5s", "3s", "4s", "5s"],
+      "Measurement": ""
+    },
+    {
+      "name": "Throttle Dead Band",
+      "type": "ComboBox",
+      "min_value": null,
+      "max_value": null,
+      "value_type": "string",
+      "options": ["Very Small (0.0250 ms)", "Very Small (0.0375 ms)", "Small (0.0500 ms)", "Small (0.0625 ms)", "Small (0.0750 ms)",
+        "Average (0.0875 ms)", "Average (0.1000 ms)", "Average (0.1125 ms)", "Large (0.1250 ms)", "Large (0.1500 ms)"],
+      "Measurement": ""
+    },
+    {
+      "name": "Start Power",
+      "type": "ComboBox",
+      "min_value": null,
+      "max_value": null,
+      "value_type": "string",
+      "options": ["Low", "Medium", "High"],
+      "Measurement": ""
+    },
+    {
+      "name": "Sensorless Motor Timing",
+      "type": "Slider",
+      "min_value": 0,
+      "max_value": 20,
+      "value_type": "int",
+      "options": [],
+      "Measurement": "S"
+    },
+    {
+      "name": "Motor Type",
+      "type": "ComboBox",
+      "min_value": null,
+      "max_value": null,
+      "value_type": "string",
+      "options": ["Brushed High-Power", "Brushed Reversing", "Smart Sense Brushless", "Sensored Only (Sensors Required)"],
+      "Measurement": ""
+    },
+    {
+      "name": "C.H.E.A.T. Mode Enable",
+      "type": "Toggle",
+      "min_value": null,
+      "max_value": null,
+      "value_type": "bool",
+      "options": [],
+      "Measurement": ""
+    },
+    {
+      "name": "C.H.E.A.T. Timing Boostanteil",
+      "type": "Slider",
+      "min_value": 0,
+      "max_value": 50,
+      "value_type": "int",
+      "options": [],
+      "Measurement": "S"
+    },
+    {
+      "name": "C.H.E.A.T. Activation Range",
+      "type": "ComboBox",
+      "min_value": null,
+      "max_value": null,
+      "value_type": "string",
+      "options": ["14000 - 15900 RPM", "12000 - 13300 RPM", "10000 - 12000 RPM", "8000 - 9200 RPM", "6000 - 7500 RPM", "4000 - 5500 RPM", "3800 - 7700 RPM"],
+      "Measurement": ""
+    }]
+  },
+  {
+    "title": "Throttle Curve",
+    "hidden": false,
+    "settings": [{
+      "name": "Throttle Curve",
+      "type": "Curve",
+      "min_value": null,
+      "max_value": null,
+      "value_type": "string",
+      "options": [],
+      "Measurement": ""
+    }]
+  },
+  {
+    "title": "Brake Curve",
+    "hidden": false,
+    "settings": [{
+      "name": "Reverse/Brake Curve",
+      "type": "Curve",
+      "min_value": null,
+      "max_value": null,
+      "value_type": "string",
+      "options": [],
+      "Measurement": ""
+    }]
+  }]
+}

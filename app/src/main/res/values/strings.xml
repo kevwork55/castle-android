@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Castle Link</string>
+    <string name="header_text">With the Castle Link USB Programming kit you can use your Windows™\nPC to easily program your controller</string>
+    <string name="footer_text">\@ 2018 Castle Creations Inc.\nCastle Link for iOS Version 11.6 (1)</string>
+
+    <!--Auth-->
+    <string name="auth_title">Enable All Features With an Account</string>
+    <string name="auth_quick_link_button">Quick Link</string>
+    <string-array name="auth_buttons">
+        <item>Login</item>
+        <item>Register</item>
+    </string-array>
+
+    <string name="all_submit_button">Submit</string>
+
+    <string name="all_unknown_error">Something went wrong. Please try again</string>
+    <string name="all_no_internet_connection_error">No internet connection</string>
+
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_repeat_password_hint">Repeat Password</string>
+    <string name="login_login_button">Login</string>
+    <string name="login_register_button">Register</string>
+    <string name="login_forgot_password_button">Recover Password</string>
+    <string name="login_about_button">About Castle Link</string>
+    <string name="login_demo_mode_button">Demo mode</string>
+    <string name="login_footer_text_button"> 2022 Castle Creations Inc.\nCastle Link for Android Version %1$s</string>
+    <string name="password_restore_title">Password Reset</string>
+    <string name="password_restore_instruction">Please enter your email to recover your password</string>
+    <string name="password_restore_check_email">An email has been sent to reset your password</string>
+
+    <string name="email_validation_error">Please enter email address in a valid format</string>
+    <string name="email_empty_error">Please enter your email address</string>
+    <string name="password_empty_error">Please enter a password</string>
+    <string name="password_validation_error">The password should contain at least 6 characters</string>
+    <string name="password_do_not_match_error">Passwords do not match. Please try again</string>
+
+    <string name="registration_email_already_exist">This email address already exists</string>
+
+    <string name="login_email_not_exist">Sorry, we could not find your account</string>
+    <string name="login_invalid_credentials">The email address or password is incorrect</string>
+
+    <string name="database_permission_error">Database error: Permission denied</string>
+    <string name="all_error_whoops_title">Whoops</string>
+    <string name="all_error_something_wrong_title">Something went wrong. Please try again</string>
+    <string name="all_ok">OK</string>
+
+
+    <string-array name="vehicle_type">
+        <item>Helicopter</item>
+        <item>Car</item>
+        <item>Other</item>
+        <item>Airplane</item>
+        <item>Multi-Rotor</item>
+        <item>Boat</item>
+    </string-array>
+
+    <string-array name="multiselector_test">
+        <item>3.0 V/C</item>
+        <item>3.1 V/C</item>
+        <item>3.2 V/C</item>
+        <item>3.3 V/C</item>
+        <item>3.4 V/C</item>
+    </string-array>
+</resources>

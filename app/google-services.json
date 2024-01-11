@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "241237685956",
+    "firebase_url": "https://castle-link-online-dev-default-rtdb.firebaseio.com",
+    "project_id": "castle-link-online-dev",
+    "storage_bucket": "castle-link-online-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241237685956:android:5d64df18b36bebf57d3b91",
+        "android_client_info": {
+          "package_name": "com.kitelytech.castlelink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241237685956-kmijpmqb2n5r77sm5bci6mtp40fdmo5j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kitelytech.castlelink",
+            "certificate_hash": "5f7a62f1164ac888bbdd1edcce02211b5a12e410"
+          }
+        },
+        {
+          "client_id": "241237685956-h29cndttljgqvib9ckcd3goqrqr30h5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRWpaM1I0gfILGMBLYVEi8Z_ozJS-LWts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241237685956-h29cndttljgqvib9ckcd3goqrqr30h5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

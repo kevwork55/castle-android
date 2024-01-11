@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidDevWork/CastleLink/app/src/main/res/layout/activity_device_setting.xml" value="0.3009833262077811" />
+        <entry key="..\:/AndroidDevWork/CastleLink/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidDevWork/CastleLink/app/src/main/res/layout/row_device.xml" value="0.3009833262077811" />
+        <entry key="..\:/AndroidDevWork/CastleLink/app/src/main/res/layout/row_footer.xml" value="0.3009833262077811" />
+        <entry key="..\:/AndroidDevWork/CastleLink/app/src/main/res/layout/row_header.xml" value="0.33" />
+        <entry key="..\:/AndroidDevWork/CastleLink/app/src/main/res/layout/row_home.xml" value="0.2790328973444312" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/alert_button_bg.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/autocomplete_dropdown.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/background_alert.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/background_disabled.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/background_dropdown.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/background_ms.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/background_ms_left_rounded.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/background_ms_right_rounded.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/background_primary.xml" value="0.142" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/background_secondary.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/background_secondary_left_rounded.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/background_secondary_rigth_rounded.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/background_secondary_straight.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/background_seekbar.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/background_seekbar_progress.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/background_text_input.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/bg_selected.xml" value="0.1405" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/bg_selected_center.xml" value="0.1405" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/bg_selected_left.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/bg_selected_right.xml" value="0.1405" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/bg_setting_help.xml" value="0.1405" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/bg_unselected.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/bg_unselected_center.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/bg_unselected_left.xml" value="0.1405" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/bg_unselected_right.xml" value="0.1405" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/border_shadow.xml" value="0.14" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/button_alert.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/button_checkbox.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/button_main.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/button_passcode.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/button_secondary.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/button_secondary_variant.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/checkbox_button.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/gradient_background.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/gradient_background_alert.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/gradient_background_alert_pressed.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/gradient_background_main.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/gradient_background_main_left_round.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/gradient_background_main_pressed.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/gradient_background_main_right_round.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/gradient_background_main_straight.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/gradient_background_secondary.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/gradient_background_secondary_disabled.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/gradient_background_secondary_left_round.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/gradient_background_secondary_pressed.xml" value="0.134" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/gradient_background_secondary_rigth_round.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/gradient_passcode_background.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/gradient_passcode_background_not_pressed.xml" value="0.134" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/gradient_passcode_background_pressed.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/grd.xml" value="0.1405" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/ic_background_2.xml" value="0.1405" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/ic_castle_branding_logos.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/ic_castle_link_logo_01_1.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/ic_forgot_password.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/ic_forgot_password_logo.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/ic_header_logo.xml" value="0.142" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/ic_iv.xml" value="0.1285" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/ic_knob.xml" value="0.1405" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/ic_knob__1_.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1405" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/ic_quick_link.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/ic_ty.xml" value="0.1285" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/main_button_bg.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/main_gradient_background.xml" value="0.8" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/ms_bg_left_rounded.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/ms_bg_right_rounded.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/ms_bg_straight.xml" value="0.176" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/ms_bg_straight_left_rounded.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/ms_bg_straight_right_rounded.xml" value="0.536" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/multiply_selector_item_background.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/passcode_button_bg.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/progress_bar_track.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/secondary_button_bg.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/secondary_variant_button_bg.xml" value="0.1555" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/seekbar_background.xml" value="0.1405" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/seekbar_progress.xml" value="0.14" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/seekbar_style.xml" value="0.14" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/seekbar_thumb.xml" value="0.176" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/seekbar_track.xml" value="0.1405" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/switch_thumb.xml" value="0.176" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/switch_track.xml" value="0.14" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/text_cursor_drawable.xml" value="0.158" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/drawable/text_input_background.xml" value="0.8800000000000001" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/activity_product_setting.xml" value="0.25" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/activity_start.xml" value="0.20436083796494228" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/cell_home.xml" value="0.25" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/cell_home_footer.xml" value="0.25" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/cell_home_header.xml" value="0.25" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/cell_product.xml" value="0.25" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/dialog_fragment.xml" value="0.20521590423257802" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/dialog_simple_error.xml" value="0.20154440154440154" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/fragment_auth_manager.xml" value="0.176" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/fragment_auth_manager_two.xml" value="0.20521590423257802" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/fragment_forgot_password.xml" value="0.152" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/fragment_login.xml" value="0.264" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/fragment_registration.xml" value="0.2" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/fragment_splash.xml" value="0.20436083796494228" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/item_multiply_selector.xml" value="0.24895833333333334" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/item_spinner.xml" value="0.20436083796494228" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/layout_app_progress_bar.xml" value="0.152" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/layout_combo_box.xml" value="0.25" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/layout_curve.xml" value="0.25" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/layout_cutoff_voltage.xml" value="0.25" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/layout_debug_sheet.xml" value="0.25" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/layout_footer_view.xml" value="0.20436083796494228" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/layout_multiply_selector.xml" value="0.24895833333333334" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/layout_product_action.xml" value="0.25" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/layout_product_header.xml" value="0.25" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/layout_setting_help.xml" value="0.25" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/layout_setting_help_sheet.xml" value="0.25" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/layout_setting_row.xml" value="0.25" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/layout_setting_row_header.xml" value="0.25" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/layout_setting_row_switch.xml" value="0.4" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/layout_slider.xml" value="0.25" />
+        <entry key="..\:/Android_Project/Castle/castlecreations-android/app/src/main/res/layout/layout_torque.xml" value="0.46095238095238095" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/drawable/bg_selected.xml" value="0.2955" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/drawable/bg_selected_center.xml" value="0.2955" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/drawable/bg_selected_left.xml" value="0.2955" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/drawable/bg_selected_right.xml" value="0.2955" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/drawable/bg_setting_help.xml" value="0.1945" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/drawable/bg_sheet_debug.xml" value="0.3155" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/drawable/bg_unselected.xml" value="0.2955" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/drawable/bg_unselected_center.xml" value="0.2955" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/drawable/bg_unselected_left.xml" value="0.2955" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/drawable/bg_unselected_right.xml" value="0.2955" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/drawable/switch_thumb.xml" value="0.347" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/layout/activity_device_setting.xml" value="0.34782608695652173" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/layout/activity_main.xml" value="0.26614583333333336" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/layout/activity_product_setting.xml" value="0.3125" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/layout/layout_combo_box.xml" value="0.5" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/layout/layout_curve.xml" value="0.33" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/layout/layout_cutoff_voltage.xml" value="0.1" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/layout/layout_debug_sheet.xml" value="0.3625" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/layout/layout_product.xml" value="0.346875" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/layout/layout_setting_help.xml" value="0.1875" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/layout/layout_setting_help_sheet.xml" value="0.33" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/layout/layout_setting_row.xml" value="0.3625" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/layout/layout_simple_label.xml" value="0.3625" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/layout/layout_slider.xml" value="0.3625" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/layout/layout_switch.xml" value="0.25" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/layout/layout_torque.xml" value="0.1" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/layout/row_footer.xml" value="0.24583333333333332" />
+        <entry key="..\:/Kitelytech/Kitelytech/Kotlin_project/app/src/main/res/layout/row_header.xml" value="0.24583333333333332" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/drawable/bg_selected.xml" value="0.253" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/drawable/bg_unselected.xml" value="0.253" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/drawable/border_shadow.xml" value="0.268" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/drawable/custom_seekbar.xml" value="0.268" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/drawable/custom_switch_thumb.xml" value="0.295" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/drawable/custom_thumb.xml" value="0.268" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/drawable/custom_track.xml" value="0.295" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2705" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/drawable/seekbar_progress.xml" value="0.268" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/drawable/seekbar_style.xml" value="0.268" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/layout/activity_device_setting.xml" value="0.358695652173913" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/layout/cell_home.xml" value="0.28020833333333334" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/layout/cell_home_footer.xml" value="0.353713768115942" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/layout/cell_home_header.xml" value="0.353713768115942" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/layout/cell_product.xml" value="0.29583333333333334" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/layout/layout_combo_box.xml" value="0.5" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/layout/layout_curve.xml" value="0.33" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/layout/layout_product.xml" value="0.353713768115942" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/layout/layout_product_action.xml" value="0.28020833333333334" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/layout/layout_section_header.xml" value="0.3125" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/layout/layout_setting_help.xml" value="0.33" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/layout/layout_simple_label.xml" value="0.353713768115942" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/layout/layout_slider.xml" value="0.33" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/layout/layout_switch.xml" value="0.33" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/layout/row_device.xml" value="0.358695652173913" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/layout/row_footer.xml" value="0.358695652173913" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/layout/row_header.xml" value="0.358695652173913" />
+        <entry key="..\:/Kitelytech/kitelytech-castlecreations-android/app/src/main/res/layout/row_home.xml" value="0.358695652173913" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

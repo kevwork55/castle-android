@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20sp">
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option Title"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp"
+            android:layout_centerVertical="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+            <TextView
+                android:id="@+id/tvValue"
+                android:layout_width="wrap_content"
+                android:layout_height="35sp"
+                android:background="@drawable/bg_unselected"
+                android:gravity="center"
+                android:paddingHorizontal="8sp"
+                android:text="Value"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp" />
+            <LinearLayout
+                android:id="@+id/linVolt"
+                android:layout_width="wrap_content"
+                android:layout_height="35sp"
+                android:background="@drawable/bg_unselected_right"
+                android:paddingHorizontal="20sp"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/imgVolt"
+                    android:layout_width="35sp"
+                    android:layout_height="20sp"
+                    android:src="@drawable/ic_volt"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/optionView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:paddingVertical="12sp"
+        android:paddingHorizontal="20sp">
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:background="@color/black"/>
+</LinearLayout>

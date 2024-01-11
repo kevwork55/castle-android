@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/offset_24"
+    android:paddingEnd="@dimen/offset_24"
+    android:background="@drawable/background_simple_error_dialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/error_dialog_title_tv"
+        style="@style/ErrorTitleTextView"
+        android:layout_marginTop="@dimen/offset_32"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        style="@style/ErrorBodyTextView"
+        android:id="@+id/error_dialog_body_tv"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/AppMainButton"
+        android:id="@+id/error_dialog_ok_b"
+        android:layout_width="152dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/offset_24"
+        android:layout_marginBottom="@dimen/offset_24"
+        android:text="@string/all_ok"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

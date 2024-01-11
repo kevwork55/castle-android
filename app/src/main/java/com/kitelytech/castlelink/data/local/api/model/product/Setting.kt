@@ -1,0 +1,33 @@
+package com.kitelytech.castlelink.data.local.api.model.product
+
+class Setting(
+    val uid: String,
+    val type: Int?,
+    val idx: Int?,
+    val ttl: Int?,
+    val help: Int?,
+    val add: Int?,
+    val dsz: Int?,
+    val dataType: Int?,
+    val memArea: Int?,
+    val min: Double?,
+    val max: Double?,
+    val inc: Double?,
+    val uom: String?,
+    val dataFreq: Int?,
+    val armCountMin: Int?,
+    val armCountDefault: Int?,
+    val armCountMax: Int?,
+    val maxCountMin: Int?,
+    val maxCountDefault: Int?,
+    val maxCountMax: Int?,
+    val clockFreq: Int?,
+    val divider: Int?,
+    val options: List<Option>,
+    val warns: List<Warn>,
+    val throttleResponses: List<ThrottleResponse>,
+    val governorGain: List<ThrottleResponse>,
+    val spoolUp: List<ThrottleResponse>,
+    val spooledUp: List<ThrottleResponse>,
+) {
+}

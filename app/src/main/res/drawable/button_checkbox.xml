@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <layer-list>
+            <item android:width="@dimen/checkbox_button_size" android:height="@dimen/checkbox_button_size">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/checkbox_corner_radius" />
+                    <stroke android:width="@dimen/checkbox_stroke_width" android:color="@color/main" />
+                </shape>
+            </item>
+            <item android:width="@dimen/checkbox_check_thumb_size" android:height="@dimen/checkbox_check_thumb_size" android:start="6dp" android:top="6dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/checkbox_check_thumb_corner_radius" />
+                    <gradient android:angle="270" android:endColor="@color/main_end_gradient" android:startColor="@color/main_start_gradient" android:type="linear" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_checked="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/checkbox_corner_radius" />
+            <stroke android:width="@dimen/checkbox_stroke_width" android:color="@color/text_secondary" />
+            <size android:width="@dimen/checkbox_button_size" android:height="@dimen/checkbox_button_size" />
+        </shape>
+    </item>
+</selector>

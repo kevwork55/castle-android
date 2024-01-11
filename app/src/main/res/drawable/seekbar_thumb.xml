@@ -1,0 +1,27 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="false">
+        <layer-list>
+            <item android:width="38dp" android:height="38dp">
+                <bitmap android:src="@drawable/shadow_seekbar_thumb" />
+            </item>
+            <item android:width="@dimen/seekbar_thumb_size" android:height="@dimen/seekbar_thumb_size" android:bottom="3dp" android:end="3dp" android:start="3dp" android:top="3dp">
+                <shape android:shape="oval">
+                    <gradient android:angle="270" android:endColor="@color/main_end_gradient" android:startColor="@color/main_start_gradient" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_activated="true">
+        <layer-list>
+            <item android:width="38dp" android:height="38dp">
+                <bitmap android:src="@drawable/shadow_seekbar_thumb" />
+            </item>
+            <item android:width="@dimen/seekbar_thumb_size" android:height="@dimen/seekbar_thumb_size" android:bottom="3dp" android:end="3dp" android:start="3dp" android:top="3dp">
+                <shape android:shape="oval">
+                    <gradient android:angle="270" android:endColor="@color/unselected_end_gradient" android:startColor="@color/unselected_start_gradient" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
+

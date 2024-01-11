@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AppSpinner">
+        <attr name="as_stroke_width" format="dimension"/>
+        <attr name="as_spinner_radius" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="MultipleSelectorView">
+        <attr name="msv_items" format="reference"/>
+    </declare-styleable>
+</resources>

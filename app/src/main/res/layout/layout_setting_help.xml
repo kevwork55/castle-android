@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100sp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@color/colorBackground"
+    android:id="@+id/btnSettingsDescription">
+    <ImageView
+        android:layout_width="15sp"
+        android:layout_height="15sp"
+        android:src="@drawable/ic_gear"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings Descriptions"
+        android:textColor="@color/colorMain"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="4sp"/>
+</LinearLayout>
